@@ -9,12 +9,12 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract TopoToken is ERC721, Ownable {
+contract myTPK is ERC721, Ownable {
 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() public ERC721("TopoToken", "TPK") {}
+    constructor() public ERC721("myTPK", "TPK") {}
 
     function mintNFT(address recipient, string memory tokenURI)
         public onlyOwner
