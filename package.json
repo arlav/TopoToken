@@ -1,0 +1,26 @@
+{
+  "name": "topotoken",
+  "version": "1.0.0",
+  "description": "topology string in ERC721 tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlav/TopoToken.git"
+  },
+  "keywords": [
+    "ERC721",
+    "Topology"
+  ],
+  "author": "arlav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arlav/TopoToken/issues"
+  },
+  "homepage": "https://github.com/arlav/TopoToken#readme",
+  "devDependencies": {
+    "hardhat": "^2.1.1"
+  }
+}
