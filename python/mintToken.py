@@ -1,12 +1,14 @@
 
 
 #refer to credentials.MD for public test ethereum addrsses
+#double check that this is my infura.
 contract_address = "0x41b101e30124ff0f6ee8c091e00178d87eb3b4c5"
 wallet_private_key = "2366b847b1452a873139138443b88957f084e4add05f00d3074497ed404db0d0"
 wallet_address = "0x59DcC1e1B1F43BaD14DA3b8040995677d6fc923E"
 infura_url = "https://ropsten.infura.io/v3/bc0151acb1204cacadd049ab3ac000eb"
 
-#@dev entries to use with the anaconda python inside blender/dynamo
+#@dev: entries to use with the anaconda python inside blender/dynamo/Grrasshopper
+#@dev: testt initially without topologic, jusst send a strring to be minted,
 path = "/opt/anaconda3/lib/python3.8"
 #['', '/opt/anaconda3/lib/python38.zip', '/opt/anaconda3/lib/python3.8', '/opt/anaconda3/lib/python3.8/lib-dynload', '/opt/anaconda3/lib/python3.8/site-packages', '/opt/anaconda3/lib/python3.8/site-packages/aeosa']
 
