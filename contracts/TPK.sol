@@ -1,5 +1,6 @@
 //Contract based on https://docs.openzeppelin.com/contracts/3.x/erc721
 // SPDX-License-Identifier: MIT
+//@dev: check processes to migrate to 0.8.0 and OpenZeppelin 0.4.0
 pragma solidity ^0.7.3;
 
 
