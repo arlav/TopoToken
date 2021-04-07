@@ -4,7 +4,7 @@
 #double check that this is my infura.
 #double check that all addresses are written with capitals so they CheckSum
 
-contract_address = "0xeE82aBEcea63F6F1c7744A9F57cc27d49c279d64"
+contract_address = "0xCb32C5E0D5ea5dEc1d6D5B2624eEEc35b8cf302c" #contract owned by ArchChainONE
 wallet_address = "0x59DcC1e1B1F43BaD14DA3b8040995677d6fc923E"
 address = "0x59DcC1e1B1F43BaD14DA3b8040995677d6fc923E"
 wallet_private_key = "2366b847b1452a873139138443b88957f084e4add05f00d3074497ed404db0d0"
@@ -43,7 +43,7 @@ receipts = []
 nonce = w3.eth.get_transaction_count(wallet_address)
 tx_dict = smartContract.functions.mintNFT(address, string).buildTransaction({
     'chainId' : 3,
-    'gas' : 210000,
+    'gas' : 2100000,
     'gasPrice' : w3.toWei('50', 'gwei'),
     'nonce' : nonce,
 })
