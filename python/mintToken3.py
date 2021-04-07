@@ -31,7 +31,7 @@ from web3 import Web3, HTTPProvider
 #import cppyy
 
 #v = Vertex.ByCoordinates(10,20,30)
-string = str('setecastronomy')
+string = str('QmWRrtweSaDvH4NAp7Z2tD37f8dosGr2pXKrQSeE9hkA5L')
 w3 = Web3(HTTPProvider(infura_url))
 
 
