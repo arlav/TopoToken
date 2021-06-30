@@ -3,7 +3,6 @@
 pragma solidity ^0.7.0;
 
 //deployed on ropsten with ArchChainONE account: 0x3e65E95E32D3414FDBBCd4ed0753EfdA6980F2Ce
-//deployed on Skale with SkaleChain account: XXXXXXXXXXXXXXXXX
 
 //@dev: sets up OpenZeppelin lirbaries needed for an NFT
 //@dev: plus additional libraries needed for pause and access control
